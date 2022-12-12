@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kanit:wght@300&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #caf0f8 ;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: #ffafcc;
+   
+} 
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+    font-family: 'Kanit', sans-serif;
+}
+
+.nav-links li{
+    list-style: none;
+    
+}
+
+.nav-links a{
+    color: #023047;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.col{
+    flex-basis: 50%;
+    color: #cad2c5;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+}
+.bg-gradient{
+    height: 220vh;
+    width: 193.vh;
+    background-color: #caf0f8;
+}
+
+
+.grid {
+  display: flex-box;
+  grid-gap: 2rem;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 5rem;
+}
+
+.grid-item {
+  background-color: #fde9f1;
+  overflow: hidden;
+  
+}
+
+.card-content {
+  padding: 3rem;
+  justify-content: center;
+  
+}
+
+.card-header {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #0d0d0d;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+}
+
+.card-text {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color: #3d3d3d;
+  margin-bottom: 2.5rem;
+  font-family: 'Josfein', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+img{
+    border-radius: 8px;
+    width: 520px;
+    height: 520px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h3{
+  font-family: 'Kanit', sans-serif;
+  font-size: 70px;
+  font-weight: 1200;
+  text-align: center;
+  padding: 3rem;
+  color: #3d3d3d;
+  margin-top: -135px;
+}
+
+h4{
+  font-size: 25px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 1600;
+  margin: 1rem 0;
+  padding-left: 3.2rem;
+  padding-right: 4rem;
+  text-align: center;
+  text-align: justify;
+  color:#3d3d3d;
+  
+}
+
+.poza2{
+    border-radius: 8px;
+    width: 55%;
+    height: 450px;
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
